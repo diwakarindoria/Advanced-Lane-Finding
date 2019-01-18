@@ -145,4 +145,4 @@ Here's a [link to my video result](.test_video_output/project_video.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Although this solution works well with project video, but when we go to challenging video, it fails with several conditions like, darker road can be detected as lane, more shiny/bright road can be detected as a different lane and it distort in some areas for a while. Some more calculations should be required to get this more robust.
+Although this solution works well with project video, but when we go to challenging video, it fails with several conditions like, darker road can be detected as lane, more shiny/bright road can be detected as a different lane and it distort in some areas for a while. Some more calculations could be refine to get this more robust like better detection of perspective transformation or better threshold so that lane line pixel can be detected better in light and dark conditions.
